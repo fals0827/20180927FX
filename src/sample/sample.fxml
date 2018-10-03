@@ -17,15 +17,39 @@
             <Font size="20.0" />
          </font>
       </Button>
-      <Button fx:id="bt01" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev01" textFill="#4660b5" GridPane.columnIndex="1" />
-      <Button fx:id="bt11" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev11" textFill="#4660b5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <Button fx:id="bt10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev10" textFill="#4660b5" GridPane.rowIndex="1" />
-      <Button fx:id="bt02" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev02" textFill="#4660b5" GridPane.columnIndex="2" />
-      <Button fx:id="bt12" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev12" textFill="#4660b5" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <Button fx:id="bt22" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev22" textFill="#4660b5" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-      <Button fx:id="bt21" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev21" textFill="#4660b5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Button fx:id="bt20" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev20" textFill="#4660b5" GridPane.rowIndex="2" />
-      <Button fx:id="btRE" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" style="-fx-background-color: #F8DFCF;" text="Restart" textFill="#4660b5" GridPane.columnIndex="3" GridPane.rowIndex="1">
+      <Button fx:id="bt01" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev01" textFill="#4660b5" GridPane.columnIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="bt11" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev11" textFill="#4660b5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="bt10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev10" textFill="#4660b5" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="bt02" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev02" textFill="#4660b5" GridPane.columnIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="bt12" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev12" textFill="#4660b5" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="bt22" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev22" textFill="#4660b5" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="bt21" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev21" textFill="#4660b5" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="bt20" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#Ev20" textFill="#4660b5" GridPane.rowIndex="2">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button fx:id="btRE" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#EvReset" style="-fx-background-color: #F8DFCF;" text="Restart" textFill="#4660b5" GridPane.columnIndex="3" GridPane.rowIndex="1">
          <font>
             <Font size="20.0" />
          </font>
@@ -38,7 +62,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #F8DFCF;" textFill="#4660b5" GridPane.columnIndex="3" GridPane.rowIndex="2">
+      <Label fx:id="victor" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #F8DFCF;" textFill="#4660b5" GridPane.columnIndex="3" GridPane.rowIndex="2">
          <font>
             <Font size="20.0" />
          </font>
